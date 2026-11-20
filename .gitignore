@@ -1,0 +1,33 @@
+# Environments & Secrets (CRITICAL: Never commit real secrets)
+.env
+.env.local
+.env.*.local
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Uploads & Temp
+uploads/
+*.pdf
+*.docx
+temp/
+tmp/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
